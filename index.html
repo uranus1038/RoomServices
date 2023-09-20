@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .img {
+            /* Center and scale the image nicely */
+            background-position: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://media.discordapp.net/attachments/1153996048411414580/1154109981789016074/pnru.png?width=995&height=498");
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="img">
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary position-fixed w-100" style="z-index: 99; top:0;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="rows justify-content-center  mb-5" style="margin-top:78px;">
+        
+        <div class="col-6 shadow container bg-body rounded p-5">
+            <button type="button" class="btn btn-outline-primary position-relative mb-3">
+                จองห้องประชุม
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  new
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+              <button type="button" class="btn btn-outline-primary position-relative mb-3 ms-3">
+                รายการใช้ห้อง
+              </button>
+              
+            <div class="alert alert-primary "  role="alert">
+                A simple primary alert—check it out!
+            </div>
+            
+            <div class="input-group mt-3">
+                <span class="input-group-text" id="basic-addon1"><i class="		fas fa-graduation-cap"></i></span>
+                <input type="number" class="form-control" placeholder="รหัสนักศึกษา" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mt-3">
+                <span class="input-group-text"><i class="fas fa-user-circle"></i></span>
+                <input placeholder="ชื่อ" type="text" aria-label="First name" class="form-control">
+                <input placeholder="นามสกุล" type="text" aria-label="Last name" class="form-control">
+            </div>
+            <div class="input-group mt-3">
+                <span class="input-group-text"><i class="	fas fa-book-open"></i></span>
+                <input placeholder="คณะ" type="text" aria-label="First name" class="form-control">
+                <input placeholder="สาขา" type="text" aria-label="Last name" class="form-control">
+            </div>
+            <div class="input-group mt-3">
+                <span class="input-group-text" id="basic-addon1"><i class="	fas fa-phone-alt"></i></span>
+                <input type="number" class="form-control" placeholder="เบอร์โทร" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+
+            <div class="btn-group btn-group-lg mt-3" role="group" aria-label="Basic outlined example">
+                <div class="form-floating">
+                    <input type="date" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                        value="mdo@example.com">
+                    <label for="floatingInputGrid">วันจอง</label>
+                </div>
+                <div class="form-floating">
+                    <input type="date" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                        value="mdo@example.com">
+                    <label for="floatingInputGrid">สิ้นสุด</label>
+                </div>
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                        value="mdo@example.com">
+                    <label for="floatingInputGrid">จำนวนคนเข้าใช้งาน</label>
+                </div>
+            </div>
+            <div class="div d-flex">
+                <div class="form-floating mt-3 w-50 ">
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                        <option selected>เวลาเริ่ม</option>
+                        <option value="1">room1</option>
+                        <option value="2">room2</option>
+                        <option value="3">room3</option>
+                    </select>
+                    <label for="floatingSelectGrid"><i class="	fas fa-clock"></i></label>
+                </div>
+                <div class="form-floating mt-3 w-50">
+                    <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                        <option selected>เวลาสิ้นสุด</option>
+                        <option value="1">room1</option>
+                        <option value="2">room2</option>
+                        <option value="3">room3</option>
+                    </select>
+                    <label for="floatingSelectGrid"><i class="far fa-hourglass"></i></label>
+                </div>
+            </div>
+
+            <div class="form-floating mt-3">
+                <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                    <option selected>room1</option>
+                    <option value="1">room1</option>
+                    <option value="2">room2</option>
+                    <option value="3">room3</option>
+                </select>
+                <label for="floatingSelectGrid">เลือกจองห้องประชุม</label>
+            </div>
+            <div class="d-grid gap-2 d-md-block mt-3">
+                <button class="btn btn-primary" type="button">Submit</button>
+              </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
